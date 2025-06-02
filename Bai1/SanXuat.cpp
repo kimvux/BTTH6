@@ -8,7 +8,7 @@ void SanXuat::Nhap(){
     cin >> SoSanPham;
 }
 void SanXuat::Xuat(){
-    this->NhanVien::Nhap();
+    this->NhanVien::Xuat();
     cout << fixed << setprecision(0) << this->Luong();
 }
 double SanXuat::Luong(){
